@@ -1,4 +1,4 @@
-# Modified by @LISA_FAN_LK | @UploadLinkToFileBot
+# Modified by @metrohdmovies | @MetroHDmovies
 
 import logging
 logging.basicConfig(level=logging.DEBUG,
@@ -72,7 +72,7 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('📍 JOIN CHANNEL 📍', url='https://t.me/NT_BOT_CHANNEL'),
+          InlineKeyboardButton('📍 JOIN CHANNEL 📍', url='https://t.me/metrohdmovies'),
           ]
         ]
        ),
@@ -97,7 +97,7 @@ async def about(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('📍 JOIN CHANNEL 📍', url='https://t.me/NT_BOT_CHANNEL'),
+          InlineKeyboardButton('📍 JOIN CHANNEL 📍', url='https://t.me/metrohdmovies'),
           ]
         ]
        ),
@@ -114,11 +114,11 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('📍 CHANNEL', url='https://t.me/NT_BOT_CHANNEL'),
+          InlineKeyboardButton('📍 CHANNEL', url='https://t.me/metrohdmovies'),
       ],
       [
-          InlineKeyboardButton('👨‍💻 DEVELOPER', url='https://t.me/LISA_FAN_LK'),
-          InlineKeyboardButton('🌝 SOURCE', url='https://github.com/LISA-KOREA/UPLOADER-BOT-V2'),
+          InlineKeyboardButton('👨‍💻 DEVELOPER', url='https://t.me/metrohdmovies'),
+          InlineKeyboardButton('🌝 SOURCE', url='https://t.me/metrohdmovies'),
           ]
         ]
       ),
