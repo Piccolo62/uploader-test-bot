@@ -24,7 +24,7 @@ class Config(object):
     
     PROCESS_MAX_TIMEOUT = 3600
     
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int{os.environ.get("OWNER_ID", "")}
 
     SESSION_NAME = "UploadLinkToFileBot"
     
